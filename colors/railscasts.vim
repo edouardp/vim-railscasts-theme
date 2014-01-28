@@ -32,16 +32,22 @@ hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
 hi Search                    guibg=#5A647E ctermfg=NONE ctermbg=236 cterm=underline
 hi Visual                    guibg=#5A647E ctermbg=60
 hi LineNr                    guifg=#888888 ctermfg=242
-hi StatusLine                guibg=#414243 gui=NONE guifg=#E6E1DC
+hi StatusLine                guibg=#ffffff gui=NONE guifg=#E6E1DC
 hi StatusLineNC              guibg=#414243 gui=NONE
-hi VertSplit                 guibg=#414243 gui=NONE guifg=#414243
+hi VertSplit                 guibg=#ffffff gui=NONE guifg=#414243
 hi CursorLineNr              guifg=#bbbbbb ctermfg=248
 hi ColorColumn               guibg=#333435 ctermbg=235
 
 " Folds
 " -----
 " line used for closed folds
-hi Folded                    guifg=#F6F3E8 guibg=#444444 gui=NONE
+hi Folded                    guifg=#888888 guibg=#444444 gui=italic
+hi FoldColumn                guifg=#888888 guibg=#444444 gui=NONE
+
+" Signs
+" -----
+" Colours used for signs
+hi SignColumn                guifg=#E6E1DC guibg=#2B2B2B gui=NONE
 
 " Invisible Characters
 " ------------------

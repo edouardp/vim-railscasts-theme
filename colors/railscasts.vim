@@ -49,7 +49,7 @@ hi FoldColumn                guifg=#888888 guibg=#444444 gui=NONE
 " Signs
 " -----
 " Colours used for signs
-hi SignColumn                guifg=#E6E1DC guibg=#2B2B2B gui=NONE
+hi SignColumn                guifg=#E6E1DC guibg=#353535 gui=NONE
 
 " Invisible Characters
 " ------------------
@@ -140,4 +140,14 @@ hi link htmlEndTag           xmlEndTag
 hi xmlTag                    guifg=#E8BF6A
 hi xmlTagName                guifg=#E8BF6A
 hi xmlEndTag                 guifg=#E8BF6A
+
+
+" GitGutter
+" ---------
+highlight GitGutterAdd          guifg=Green  guibg=#353535
+highlight GitGutterChange       guifg=Orange guibg=#353535
+highlight GitGutterDelete       guifg=Red    guibg=#353535
+highlight GitGutterChangeDelete guifg=Red    guibg=#353535
+
+
 

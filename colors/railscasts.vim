@@ -133,7 +133,7 @@ hi Type                      guifg=#DA4939 gui=NONE
 hi DiffAdd                   guifg=#E6E1DC guibg=#144212
 hi DiffChange                guifg=#E6E1DC guibg=#553355
 hi DiffText                  guifg=#E6E1DC guibg=#bb33bb
-hi DiffDelete                guifg=#662222 guibg=#662222
+hi DiffDelete                guifg=#552222 guibg=#552222
 
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName

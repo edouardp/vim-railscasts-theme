@@ -131,7 +131,9 @@ hi Title                     guifg=#FFFFFF ctermfg=15
 hi Type                      guifg=#DA4939 gui=NONE
 
 hi DiffAdd                   guifg=#E6E1DC guibg=#144212
-hi DiffDelete                guifg=#E6E1DC guibg=#660000
+hi DiffChange                guifg=#E6E1DC guibg=#553355
+hi DiffText                  guifg=#E6E1DC guibg=#bb33bb
+hi DiffDelete                guifg=#E6E1DC guibg=#663333
 
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName

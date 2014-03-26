@@ -152,4 +152,7 @@ highlight GitGutterDelete       guifg=Red    guibg=#353535
 highlight GitGutterChangeDelete guifg=Red    guibg=#353535
 
 
+" Matchmaker
+" ----------
+highlight Matchmaker guibg=#553520
 

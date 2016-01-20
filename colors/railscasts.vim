@@ -49,7 +49,7 @@ hi FoldColumn                guifg=#888888 guibg=#444444 gui=NONE
 " Signs
 " -----
 " Colours used for signs
-hi SignColumn                guifg=#E6E1DC guibg=#353535 gui=NONE
+hi SignColumn                guifg=#E6E1DC guibg=#353535
 
 " Invisible Characters
 " ------------------
@@ -152,7 +152,8 @@ highlight GitGutterDelete       guifg=Red    guibg=#353535
 highlight GitGutterChangeDelete guifg=Red    guibg=#353535
 
 
+
 " Matchmaker
 " ----------
-highlight Matchmaker guibg=#553520
+highlight Matchmaker guibg=#7700aa
 

@@ -26,8 +26,11 @@ let g:colors_name = "railscasts"
 " Light Green  #A5C261
 " Tan          #FFC66D
 
+
+" Base Colours
+" ------------
 hi Normal                    guifg=#E6E1DC guibg=#2B2B2B ctermfg=white ctermbg=234
-hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15	
+hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
 hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
 hi CursorLineNr              guibg=#333435 ctermbg=235 cterm=NONE
 hi CursorColumn              guibg=#333435 ctermbg=235 cterm=NONE
@@ -40,26 +43,31 @@ hi VertSplit                 guibg=#ffffff gui=NONE guifg=#414243
 hi CursorLineNr              guifg=#bbbbbb ctermfg=248
 hi ColorColumn               guibg=#662222 ctermbg=235
 
+
 " Folds
 " -----
 " line used for closed folds
-hi Folded                    guifg=#888888 guibg=#444444 gui=italic
-hi FoldColumn                guifg=#888888 guibg=#444444 gui=NONE
+hi Folded                    guifg=#888888 guibg=#444444 ctermbg=240 ctermfg=248 gui=italic
+hi FoldColumn                guifg=#888888 guibg=#444444 ctermbg=240 ctermfg=248 gui=NONE
+
 
 " Signs
 " -----
 " Colours used for signs
-hi SignColumn                guifg=#E6E1DC guibg=#353535
+hi SignColumn                guifg=#E6E1DC guibg=#353535 ctermbg=238
+
 
 " Invisible Characters
 " ------------------
 hi NonText                   guifg=#777777 gui=NONE
 hi SpecialKey                guifg=#777777 gui=NONE
 
+
 " Misc
 " ----
 " directory names and other special names in listings
 hi Directory                 guifg=#A5C261 gui=NONE
+
 
 " Popup Menu
 " ----------
@@ -130,6 +138,9 @@ hi Title                     guifg=#FFFFFF ctermfg=15
 "rubyConstant
 hi Type                      guifg=#DA4939 gui=NONE
 
+
+" Diff Support
+" ------------
 hi DiffAdd                   guifg=#E6E1DC guibg=#144212
 hi DiffChange                guifg=#E6E1DC guibg=#553355
 hi DiffText                  guifg=#E6E1DC guibg=#bb33bb
@@ -146,14 +157,13 @@ hi xmlEndTag                 guifg=#E8BF6A
 
 " GitGutter
 " ---------
-highlight GitGutterAdd          guifg=Green  guibg=#353535
-highlight GitGutterChange       guifg=Orange guibg=#353535
-highlight GitGutterDelete       guifg=Red    guibg=#353535
-highlight GitGutterChangeDelete guifg=Red    guibg=#353535
-
+highlight GitGutterAdd          guifg=Green  guibg=#353535 ctermfg=green ctermbg=238
+highlight GitGutterChange       guifg=Orange guibg=#353535 ctermfg=172   ctermbg=238
+highlight GitGutterDelete       guifg=Red    guibg=#353535 ctermfg=red   ctermbg=238
+highlight GitGutterChangeDelete guifg=Red    guibg=#353535 ctermfg=red   ctermbg=238
 
 
 " Matchmaker
 " ----------
-highlight Matchmaker guibg=#7700aa
+highlight Matchmaker guibg=#7700aa ctermbg=darkmagenta
 

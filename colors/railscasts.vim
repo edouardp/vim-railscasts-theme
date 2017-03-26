@@ -29,19 +29,18 @@ let g:colors_name = "railscasts"
 
 " Base Colours
 " ------------
-hi Normal                    guifg=#E6E1DC guibg=#2B2B2B ctermfg=white ctermbg=234
-hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
-hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
-hi CursorLineNr              guibg=#333435 ctermbg=235 cterm=NONE
-hi CursorColumn              guibg=#333435 ctermbg=235 cterm=NONE
-hi Search                    guibg=#5A647E ctermfg=NONE ctermbg=236 cterm=underline
-hi Visual                    guibg=#5A647E ctermbg=60
-hi LineNr                    guifg=#888888 ctermfg=242
-hi StatusLine                guibg=#ffffff gui=NONE guifg=#E6E1DC
-hi StatusLineNC              guibg=#414243 gui=NONE
-hi VertSplit                 guibg=#ffffff gui=NONE guifg=#414243
-hi CursorLineNr              guifg=#bbbbbb ctermfg=248
-hi ColorColumn               guibg=#662222 ctermbg=235
+hi Normal                    guifg=#E6E1DC guibg=#2B2B2B              ctermfg=white ctermbg=234
+hi Cursor                    guifg=#000000 guibg=#FFFFFF              ctermfg=0     ctermbg=15
+hi CursorLine                              guibg=#333435              ctermbg=235   cterm=NONE
+hi CursorLineNr              guifg=#ffee22 guibg=#2B2B2B gui=NONE     ctermbg=235   cterm=NONE
+hi CursorColumn                            guibg=#333435              ctermbg=235   cterm=NONE
+hi Search                                  guibg=#5A647E              ctermfg=NONE  ctermbg=236 cterm=underline
+hi Visual                                  guibg=#5A647E              ctermbg=60
+hi LineNr                    guifg=#4a4a4a                            ctermfg=242
+hi StatusLine                guifg=#E6E1DC guibg=#ffffff gui=NONE
+hi StatusLineNC                            guibg=#414243 gui=NONE
+hi VertSplit                 guifg=#414243 guibg=#ffffff gui=NONE
+hi ColorColumn                             guibg=#662222              ctermbg=235
 
 
 " Folds
